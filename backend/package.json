@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "NodeJS integrate with Oracle DB",
+  "main": "index.js",
+  "author": "ardikapras",
+  "license": "ISC",
+  "dependencies": {
+    "express": "*",
+    "morgan": "*",
+    "oracledb": "*"
+  },
+  "scripts": {
+    "livereload": "nodemon index.js",
+    "start": "node index.js"
+  }
+}
